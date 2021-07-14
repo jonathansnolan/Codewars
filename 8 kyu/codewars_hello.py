@@ -1,17 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 11:11:17 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
 
-# Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! 
+# Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World!
 # if name is not given (or passed as an empty String).
 
-# Assuming that name is a String and it checks for user typos to return a name 
+# Assuming that name is a String and it checks for user typos to return a name
 # with a first capital letter (Xxxx).
 
 # Examples:
@@ -42,5 +36,3 @@ print(hello("jonATHaN"))
 
 print(hello("aLICe"))
 print(hello())
-
-        

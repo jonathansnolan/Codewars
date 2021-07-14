@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 23:19:18 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -12,8 +6,8 @@ Created on Tue Sep 29 23:19:18 2020
 # living family member’s age and the youngest family member’s age and c
 # calculate the difference between them.
 
-# You will be given an array of all the family members' ages, in any order. 
-# The ages will be given in whole numbers, so a baby of 5 months, will have 
+# You will be given an array of all the family members' ages, in any order.
+# The ages will be given in whole numbers, so a baby of 5 months, will have
 # an ascribed ‘age’ of 0. Return a new array (a tuple in Python) with
 # [youngest age, oldest age, difference between the youngest and oldest age].
 

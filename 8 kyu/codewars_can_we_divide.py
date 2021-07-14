@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 11:34:54 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
 
-# Your task is to create function isDivideBy (or is_divide_by) to check 
+# Your task is to create function isDivideBy (or is_divide_by) to check
 # if an integer number is divisible by each out of two arguments.
 
 # A few cases:

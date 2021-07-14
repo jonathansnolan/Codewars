@@ -1,18 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 #################################
 # SNAIL
 #################################
 
 def snail(snail_map):
-    
+
     if snail_map == [[]]:
         return []
-    
+
     r = len(snail_map)**2
     #####################
     # EVEN
@@ -26,13 +20,13 @@ def snail(snail_map):
             for k in list(range(1,len(snail_map)-1)):
                 m.append(snail_map[k][-1])
             for k in list(range(len(snail_map)-1,0,-1)):
-                m.append(snail_map[-1][k])            
+                m.append(snail_map[-1][k])
             for k in list(range(len(snail_map)-1,0,-1)):
-                m.append(snail_map[k][0])            
-            
+                m.append(snail_map[k][0])
+
             snail_map = snail_map[1:]
             snail_map = snail_map[:-1]
-            
+
             u = []
             for k in list(range(0,len(snail_map))):
                 q = []
@@ -53,13 +47,13 @@ def snail(snail_map):
             for k in list(range(1,len(snail_map)-1)):
                 m.append(snail_map[k][-1])
             for k in list(range(len(snail_map)-1,0,-1)):
-                m.append(snail_map[-1][k])            
+                m.append(snail_map[-1][k])
             for k in list(range(len(snail_map)-1,0,-1)):
-                m.append(snail_map[k][0])            
-            
+                m.append(snail_map[k][0])
+
             snail_map = snail_map[1:]
             snail_map = snail_map[:-1]
-            
+
             u = []
             for k in list(range(0,len(snail_map))):
                 q = []

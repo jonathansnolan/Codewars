@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 22:55:58 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -26,7 +20,7 @@ Created on Tue Sep 29 22:55:58 2020
 def warn_the_sheep(queue):
     x = len(queue)
     z = 0
-    
+
     for k in range(0, x):
         if queue[k] == "wolf" and k < x:
             z += k

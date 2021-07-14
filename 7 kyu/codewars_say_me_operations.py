@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct  1 16:30:30 2020
-
-@author: Emily
-"""
-
 ########################################
 # QUESTION
 ########################################
@@ -41,14 +34,14 @@ Created on Thu Oct  1 16:30:30 2020
 ###################################
 
 def sayMeOperations(stringNumbers):
-    
+
     x = stringNumbers.split()
 
-    
+
     z = []
     for k in x:
         z.append(int(k))
-    
+
     p = []
     for k in list(range(2,len(z))):
         if z[k] == z[k-2] + z[k-1]:
@@ -66,13 +59,13 @@ def sayMeOperations(stringNumbers):
                         if z[k] == -(z[k-2] / (z[k-1])):
                             p.append("division")
     print(p)
-    n = ''        
+    n = ''
     for k in p:
         n += k +', '
     n = n[0:-2]
-    return n    
-    
-sayMeOperations("1 2 3 5 8")         
-sayMeOperations("1 2 3 5 8")         
+    return n
 
-sayMeOperations("9 4 5 20 25")   
+sayMeOperations("1 2 3 5 8")
+sayMeOperations("1 2 3 5 8")
+
+sayMeOperations("9 4 5 20 25")

@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct  2 17:04:07 2020
-
-@author: Emily
-"""
-
-
 ########################################
 # QUESTION
 ########################################
@@ -27,15 +19,13 @@ def make_readable(seconds):
     hours = int(seconds / (60*60))
     mins = int((seconds - hours*60*60)/60)
     sec = (seconds - hours*60*60 - mins*60)
-    
+
     # THE FOLLOWING CODE MAKES THE NUMBERS 2 DIGITS LONG
     # 1 = 01
     # 4 = 04
-    
+
     hours = ("%02d" % (hours,))
     mins = ("%02d" % (mins,))
     sec = ("%02d" % (sec,))
-    
-    return str(hours) + ":" + str(mins) + ":" + str(sec)
 
-        
+    return str(hours) + ":" + str(mins) + ":" + str(sec)

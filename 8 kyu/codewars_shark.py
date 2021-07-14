@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 16:15:27 2020
-
-@author: Emily
-"""
-
 ########################################
 # QUESTION
 ########################################
@@ -45,5 +38,5 @@ def shark(pontoon_distance, shark_distance, you_speed, shark_speed, dolphin):
         return "Shark Bait!"
     else:
         return "Alive!"
-        
+
 print(shark(12, 50, 4, 8, True))

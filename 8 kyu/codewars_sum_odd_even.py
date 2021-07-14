@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 13:28:33 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -25,5 +19,5 @@ def odd_or_even(arr):
         return "even"
     else:
         return "odd"
-        
+
 print(odd_or_even([0,1,3]))

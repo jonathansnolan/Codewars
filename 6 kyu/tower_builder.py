@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  5 21:45:02 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -30,16 +24,16 @@ Created on Mon Oct  5 21:45:02 2020
 ###################################
 
 def tower_builder(n_floors):
-    
+
     stars = []
     stars = list(range(1,n_floors*2,2))
-    
+
     tower = []
-    
+
     for k in stars:
         tower.append(("*" * k))
-    
+
     for k in list(range(0, len(tower)-1)):
         tower[k] = " "*int((len(tower[-1])-len(tower[k]))/2) + tower[k] + " "*int((len(tower[-1])-len(tower[k]))/2)
-    
+
     return tower

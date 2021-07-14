@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 14 18:42:20 2020
-
-@author: Emily
-"""
-
 ###################################
 # QUESTIONS
 ###################################
 
 # Description:
-# Write a function called sumIntervals/sum_intervals() 
-# that accepts an array of intervals, and returns the sum of 
+# Write a function called sumIntervals/sum_intervals()
+# that accepts an array of intervals, and returns the sum of
 # all the interval lengths. Overlapping intervals should only be counted once.
 
 # Intervals
@@ -27,7 +20,7 @@ Created on Wed Oct 14 18:42:20 2020
 #    [7, 10],
 #    [3, 5]
 # ]
-# The sum of the lengths of these intervals is 7. 
+# The sum of the lengths of these intervals is 7.
 # Since [1, 4] and [3, 5] overlap, we can treat the interval as [1, 5], which has a length of 4.
 
 ######################################
@@ -38,6 +31,6 @@ def sum_of_intervals(intervals):
     i = []
     for k in intervals:
         i += list(range(k[0],k[1]))
-            
+
     i = list(dict.fromkeys(i))
     return len(i)

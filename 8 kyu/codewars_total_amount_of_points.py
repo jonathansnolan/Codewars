@@ -1,22 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 20:26:46 2020
-
-@author: Emily
-"""
-
-
 ########################################
 # QUESTION
 ########################################
 
-# Our football team finished the championship. 
-# The result of each match look like "x:y". 
+# Our football team finished the championship.
+# The result of each match look like "x:y".
 # Results of all matches are recorded in the collection.
 
 # For example: ["3:1", "2:2", "0:1", ...]
 
-# Write a function that takes such collection and counts the points 
+# Write a function that takes such collection and counts the points
 # of our team in the championship. Rules for counting points for each match:
 
 # if x>y - 3 points
@@ -34,10 +26,10 @@ Created on Tue Sep 29 20:26:46 2020
 #######################################
 def points(games):
     k = len(games)
-    
+
     z = 0
     for j in range(0,(k)):
-        x = int(games[j][0]) 
+        x = int(games[j][0])
         y = int(games[j][2])
         if x > y:
             z += 3
@@ -47,5 +39,5 @@ def points(games):
             z += 0
     return z
 
-games = ['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']        
+games = ['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']
 print(points(games))

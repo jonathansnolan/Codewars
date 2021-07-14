@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  5 19:07:16 2020
-
-@author: Emily
-"""
-
 ########################################
 # QUESTION
 ########################################
@@ -27,12 +20,12 @@ Created on Mon Oct  5 19:07:16 2020
 def iq_test(numbers):
     numbers = numbers.split(" ")
     x = list(numbers)
-    
+
     odd_count = 0
-    odd = [] 
+    odd = []
     even_count = 0
     even = []
-    
+
     for k in list(range(0,len(x))):
         if int(x[k]) % 2 == 0:
             even_count += 1
@@ -40,10 +33,10 @@ def iq_test(numbers):
         elif int(x[k]) % 2 != 0:
             odd_count += 1
             odd.append(k)
-    
+
     if even_count > odd_count:
         return odd[0]+1
     if even_count < odd_count:
         return even[0]+1
-    
+
 print(iq_test("1 2 2"))

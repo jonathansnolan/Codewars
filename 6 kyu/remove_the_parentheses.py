@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 14 18:32:32 2020
-
-@author: Emily
-"""
-
 ###################################
 # QUESTIONS
 ###################################
@@ -25,7 +18,7 @@ Created on Wed Oct 14 18:32:32 2020
 # SOLUTION
 ######################################
 import re
-    
+
 def remove_parentheses(s):
 
     i = s

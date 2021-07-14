@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct  1 14:14:17 2020
-
-@author: Emily
-"""
-
 ###################################
 # QUESTION
 ###################################
@@ -32,8 +25,8 @@ def row_sum_odd_numbers(n):
     end = count*2+1
     odd = list(range(1,end,2))
     ran = count - n
-    
+
     row = odd[ran:]
     return (sum(row))
-    
+
 row_sum_odd_numbers(6)

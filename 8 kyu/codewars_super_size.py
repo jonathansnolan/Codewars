@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct  1 18:00:20 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -30,6 +24,6 @@ def super_size(n):
         y += str(k)
     y = int(y)
     return y
-    
-    
+
+
 print(super_size(608719))

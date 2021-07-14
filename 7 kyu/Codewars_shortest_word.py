@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct  2 15:24:55 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -21,7 +15,7 @@ def find_short(s):
     i = []
     for x in s:
         i.append(len(x))
-    
+
     if i == []:
         return 1
     else:

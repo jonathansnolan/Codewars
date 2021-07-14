@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 13:23:26 2020
-
-@author: Emily
-"""
-
 def people_with_age_drink(age):
     if age >=21:
         return "drink whiskey"
@@ -16,6 +9,6 @@ def people_with_age_drink(age):
                 return "drink coke"
             else:
                 return "drink toddy"
-            
-            
+
+
 print(people_with_age_drink(13))

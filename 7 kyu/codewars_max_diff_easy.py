@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 23:45:44 2020
-
-@author: Emily
-"""
 ########################################
 # QUESTION
 ########################################
@@ -23,16 +17,16 @@ Created on Tue Sep 29 23:45:44 2020
 
 def max_diff(lst):
     if len(lst) == 1 or lst == []:
-        return 0 
+        return 0
     else:
         x = min(lst)
         y = max(lst)
 
-    
+
         if x >= 0:
             z = y - x
         elif x < 0 and y < 0:
-            z = y + x    
+            z = y + x
         else:
             z = y - x
     return z

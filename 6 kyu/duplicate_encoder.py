@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  5 17:29:20 2020
-
-@author: Emily
-"""
-
 ########################################
 # QUESTION
 ########################################
@@ -30,7 +23,7 @@ def duplicate_encode(word):
             u.append("(")
         elif x.count(k) > 1:
             u.append(")")
-    
+
     j = ""
     for k in u:
         j += k
